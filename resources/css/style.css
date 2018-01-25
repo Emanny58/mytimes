@@ -1,0 +1,32 @@
+/* heder section */
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.logo {
+  display: inline-flex;
+  color: aquamarine;
+  padding-left: 20px;
+  flex-shrink: 2;
+}
+
+.mytimes {
+  align-items: center;
+  padding: 10px 10px;
+  width: 900px;
+}
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+}
+.navigation span a {
+}
