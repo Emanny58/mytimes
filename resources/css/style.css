@@ -33,3 +33,30 @@ nav {
 nav span {
   color: black;
 }
+
+/* Main Container  */
+.main-container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.large {
+  width: 630px;
+  min-height: 200px;
+  border: 1px solid blue;
+  z-index: 2;
+}
+
+.medium {
+  width: 300px;
+  min-height: 200px;
+  border: 1px solid green;
+  z-index: 2;
+}
+
+.small {
+  width: 240px;
+  min-height: 200px;
+  border: 1px solid red;
+  z-index: 2;
+}
