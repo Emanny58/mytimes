@@ -24,9 +24,8 @@ header {
   padding: 10px 10px;
   width: 900px;
 }
-nav {
-  display: inline-flex;
-  width: 400px;
+header nav {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   padding-right: 30px;
@@ -40,6 +39,7 @@ nav {
   justify-content: space-between;
   width: 100%;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 .text {
   font-family: Georgia;
@@ -120,4 +120,51 @@ nav {
   margin: 0 0;
   padding: 10px 20px;
   border-bottom: 1px solid black;
+}
+
+/* Footer */
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mini-frame {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.foot-info {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.foot-times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 30px;
+  margin-right: 5px;
+}
+
+.foot-info span {
+  display: inline-flex;
+  justify-content: space-between;
+  align-self: center;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.mini-frame .copyr {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
