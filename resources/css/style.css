@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 /* header section */
 
 header {
@@ -74,11 +78,15 @@ header nav {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 .mom.image {
   background-image: url("../images/main.png");
   font-size: 40px;
   height: 300px;
+  width: 600px;
+  text-align: center;
 }
 .earth.image {
   background-image: url("../images/fall.png");
@@ -97,10 +105,8 @@ header nav {
 .medium {
   width: 300px;
   margin-right: 20px;
-  border: 1px solid red;
 }
 .fbi {
-  border: 1px solid green;
   display: flex;
 }
 .cat.image {
@@ -139,7 +145,7 @@ footer {
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
